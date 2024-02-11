@@ -1,0 +1,18 @@
+U 
+&#x0;&#x0;&#x0;&#x0;�„cn&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;@&#x0;&#x0;&#x0;sR&#x0;&#x0;&#x0;d&#x0;Z&#x0;ddlmZ&#x0;ddlmZmZ&#x0;ddlmZmZm        Z        m
+Z
+mZ&#x0;G&#x0;dd�&#x0;dee�ZdS&#x0;)zThis is the review class�&#x0;&#x0;&#x0;&#x0;)�declarative_base)�        BaseModel�Base)�Column�Integer�String�
+ForeignKey�Floatc&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;@&#x0;&#x0;&#x0;sP&#x0;&#x0;&#x0;e&#x0;Zd&#x0;ZdZdZeed�dd�Zeed�ed�dd�Z        eed�ed�dd�Z
+d        S&#x0;)
+�Reviewz�This is the class for Review
+    Attributes:
+        place_id: place id
+        user_id: user id
+        text: review description
+    �reviewsi&#x0;&#x0;&#x0;F)�nullable�<&#x0;&#x0;&#x0;z        places.idzusers.idN)�__name__�
+__module__�__qualname__�__doc__� __tablename__r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�textr&#x0;&#x0;&#x0;Zplace_id�user_id�&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�5/home/ubuntu/nothing/AirBnB_clone_v2/models/review.pyr
+&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;s
+&#x0;&#x0;&#x0;r
+&#x0;&#x0;&#x0;N) r&#x0;&#x0;&#x0;�sqlalchemy.ext.declarativer&#x0;&#x0;&#x0;�models.base_modelr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�
+sqlalchemyr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r        &#x0;&#x0;&#x0;r
+&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�<module>&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;

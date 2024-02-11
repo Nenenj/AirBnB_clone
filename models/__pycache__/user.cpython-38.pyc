@@ -1,0 +1,17 @@
+U 
+&#x0;&#x0;&#x0;&#x0;�„c�&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;@&#x0;&#x0;&#x0;sn&#x0;&#x0;&#x0;d&#x0;Z&#x0;ddlmZ&#x0;ddlmZmZ&#x0;ddlmZmZm        Z        &#x0;ddl
+mZ&#x0;ddlm Z &#x0;ddlmZ&#x0;G&#x0;dd        �&#x0;d        ee�Zd
+S&#x0;)zThis is the user class�&#x0;&#x0;&#x0;&#x0;)�declarative_base)�        BaseModel�Base)�Column�Integer�String)�relationship)�Place)�Reviewc&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;@&#x0;&#x0;&#x0;sh&#x0;&#x0;&#x0;e&#x0;Zd&#x0;ZdZdZeed�dd�Zeed�dd�Zeed��Z        eed��Z
+edddd        �Zed
+ddd        �Z dS&#x0;)�Userz�This is the class for user
+    Attributes:
+        email: email address
+        password: password for you login
+        first_name: first name
+        last_name: last name
+    Zusers�&#x0;&#x0;&#x0;F)�nullabler        &#x0;&#x0;&#x0;zall, delete, delete-orphan�user)�cascade�backrefr
+&#x0;&#x0;&#x0;N)�__name__�
+__module__�__qualname__�__doc__� __tablename__r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�email�passwordZ
+first_name�        last_namer&#x0;&#x0;&#x0;ZplacesZreviews�&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�3/home/ubuntu/nothing/AirBnB_clone_v2/models/user.pyr&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;��r&#x0;&#x0;&#x0;N)r&#x0;&#x0;&#x0;�sqlalchemy.ext.declarativer&#x0;&#x0;&#x0;�models.base_modelr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�
+sqlalchemyr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�sqlalchemy.ormr&#x0;&#x0;&#x0;�models.placer        &#x0;&#x0;&#x0;� models.reviewr
+&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�<module>&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;

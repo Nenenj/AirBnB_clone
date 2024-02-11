@@ -1,0 +1,27 @@
+U 
+&#x0;&#x0;&#x0;&#x0;�„c        &#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;@&#x0;&#x0;&#x0;sz&#x0;&#x0;&#x0;d&#x0;Z&#x0;ddlZddlmZ&#x0;ddlmZ&#x0;ddlmZ&#x0;ddlm        Z        &#x0;ddl
+mZ&#x0;ddlm Z &#x0;dd        lmZ&#x0;ddlZG&#x0;d
+d�&#x0;d�ZdS&#x0;)z)This is the file storage class for AirBnB�&#x0;&#x0;&#x0;&#x0;N)�        BaseModel)�User)�State)�City)�Amenity)�Place)�Reviewc&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;@&#x0;&#x0;&#x0;sL&#x0;&#x0;&#x0;e&#x0;Zd&#x0;ZdZdZi&#x0;Zddd�Zdd�&#x0;Zdd        �&#x0;Zd
+d�&#x0;Z        ddd �Z
+dd�&#x0;ZdS&#x0;)�FileStoragez�This class serializes instances to a JSON file and
+    deserializes JSON file to instances
+    Attributes:
+        __file_path: path to the JSON file
+        __objects: objects will be stored
+    z        file.jsonNc&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;C&#x0;&#x0;&#x0;sX&#x0;&#x0;&#x0;i&#x0;}|rN|&#x0;j&#x0;}|D&#x0;]6}|�dd�}t�|�}|d&#x0;|jkr|&#x0;j&#x0;|&#x0;||<&#x0;q|S&#x0;|&#x0;j&#x0;S&#x0;dS&#x0;)zZreturns a dictionary
+        Return:
+            returns a dictionary of __object
+        �.� r&#x0;&#x0;&#x0;N)�_FileStorage__objects�replace�shlex�split�__name__)�self�clsZdicZ
+dictionary�key�        partition�&#x0;r&#x0;&#x0;&#x0;�B/home/ubuntu/nothing/AirBnB_clone_v2/models/engine/file_storage.py�all&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;&#x0;
+zFileStorage.allc&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;C&#x0;&#x0;&#x0;s&&#x0;&#x0;&#x0;|r"d�&#x0;t|�j|j�}||&#x0;j|<&#x0;dS&#x0;)zOsets __object to given obj
+        Args:
+            obj: given object
+        �{}.{}N��format�typer&#x0;&#x0;&#x0;�idr&#x0;&#x0;&#x0;�r&#x0;&#x0;&#x0;�objr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�new)&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;&#x0;zFileStorage.newc&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;        &#x0;&#x0;&#x0;C&#x0;&#x0;&#x0;sP&#x0;&#x0;&#x0;i&#x0;}|&#x0;j&#x0;��&#x0;D&#x0;]\}}|��&#x0;||<&#x0;qt|&#x0;jddd��}t�||�&#x0;W&#x0;5&#x0;Q&#x0;R&#x0;X&#x0;dS&#x0;)�2serialize the file path to JSON file path
+        �w�UTF-8��encodingN)r&#x0;&#x0;&#x0;�itemsZto_dict�open�_FileStorage__file_path�json�dump)r&#x0;&#x0;&#x0;Zmy_dictr&#x0;&#x0;&#x0;�value�fr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�save2&#x0;&#x0;&#x0;s
+&#x0;&#x0;&#x0;&#x0;zFileStorage.savec&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;        &#x0;&#x0;&#x0;C&#x0;&#x0;&#x0;sn&#x0;&#x0;&#x0;zTt&#x0;|&#x0;jddd��:}t�|���&#x0;D&#x0;]$\}}t|d&#x0;�f&#x0;|�}||&#x0;j|<&#x0;q"W&#x0;5&#x0;Q&#x0;R&#x0;X&#x0;W&#x0;n&#x0;tk
+rh&#x0;&#x0;&#x0;Y&#x0;nX&#x0;dS&#x0;)r &#x0;&#x0;&#x0;�rr"&#x0;&#x0;&#x0;r#&#x0;&#x0;&#x0;�        __class__N)r&&#x0;&#x0;&#x0;r'&#x0;&#x0;&#x0;r(&#x0;&#x0;&#x0;�loadr%&#x0;&#x0;&#x0;�evalr&#x0;&#x0;&#x0;�FileNotFoundError)r&#x0;&#x0;&#x0;r+&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r*&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�reload;&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;&#x0;zFileStorage.reloadc&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;C&#x0;&#x0;&#x0;s$&#x0;&#x0;&#x0;|r d�&#x0;t|�j|j�}|&#x0;j|=&#x0;dS&#x0;)z$ delete an existing element
+        r&#x0;&#x0;&#x0;Nr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�deleteF&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;&#x0;zFileStorage.deletec&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;C&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;|&#x0;�&#x0;�&#x0;&#x0;dS&#x0;)z calls reload()
+        N)r2&#x0;&#x0;&#x0;)r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�closeM&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;&#x0;zFileStorage.close)N)N)r&#x0;&#x0;&#x0;�
+__module__�__qualname__�__doc__r'&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r,&#x0;&#x0;&#x0;r2&#x0;&#x0;&#x0;r3&#x0;&#x0;&#x0;r4&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r        &#x0;&#x0;&#x0;&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;
+                
+r        &#x0;&#x0;&#x0;)r7&#x0;&#x0;&#x0;r(&#x0;&#x0;&#x0;�models.base_modelr&#x0;&#x0;&#x0;�models.userr&#x0;&#x0;&#x0;�models.stater&#x0;&#x0;&#x0;�models.cityr&#x0;&#x0;&#x0;�models.amenityr&#x0;&#x0;&#x0;�models.placer&#x0;&#x0;&#x0;� models.reviewr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r        &#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�<module>&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;

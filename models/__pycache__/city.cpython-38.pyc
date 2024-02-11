@@ -1,0 +1,16 @@
+U 
+&#x0;&#x0;&#x0;&#x0;�„c�&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;@&#x0;&#x0;&#x0;sn&#x0;&#x0;&#x0;d&#x0;Z&#x0;ddlmZ&#x0;ddlmZmZ&#x0;ddlmZmZm        Z        &#x0;ddlm
+Z
+&#x0;ddlmZ&#x0;ddl mZ&#x0;G&#x0;dd        �&#x0;d        ee�Zd
+S&#x0;)zThis is the city class�&#x0;&#x0;&#x0;&#x0;)�declarative_base)�        BaseModel�Base)�Column�Integer�String)�
+ForeignKey)�relationship)�Placec&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;@&#x0;&#x0;&#x0;sH&#x0;&#x0;&#x0;e&#x0;Zd&#x0;ZdZdZeed�dd�Zeed�ed�dd�Z        e
+dd        dd
+�ZdS&#x0;)�CityzgThis is the class for City
+    Attributes:
+        state_id: The state id
+        name: input name
+    �cities�&#x0;&#x0;&#x0;F)�nullable�<&#x0;&#x0;&#x0;z        states.idr
+&#x0;&#x0;&#x0;zall, delete, delete-orphan)�cascade�backrefN)�__name__�
+__module__�__qualname__�__doc__� __tablename__r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�namer&#x0;&#x0;&#x0;�state_idr        &#x0;&#x0;&#x0;�places�&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�3/home/ubuntu/nothing/AirBnB_clone_v2/models/city.pyr&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;�r&#x0;&#x0;&#x0;N)r&#x0;&#x0;&#x0;�sqlalchemy.ext.declarativer&#x0;&#x0;&#x0;�models.base_modelr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�
+sqlalchemyr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�sqlalchemy.ormr        &#x0;&#x0;&#x0;�models.placer
+&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�<module>&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;

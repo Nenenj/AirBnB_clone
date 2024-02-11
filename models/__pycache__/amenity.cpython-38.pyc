@@ -1,0 +1,11 @@
+U 
+&#x0;&#x0;&#x0;&#x0;�„c�&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;@&#x0;&#x0;&#x0;sR&#x0;&#x0;&#x0;d&#x0;Z&#x0;ddlmZmZ&#x0;ddlmZ&#x0;ddlmZmZ&#x0;ddl        m
+Z
+&#x0;G&#x0;dd�&#x0;dee�ZdS&#x0;)        zThis is the amenity class�&#x0;&#x0;&#x0;&#x0;)�        BaseModel�Base)�relationship)�Column�String)� place_amenityc&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;@&#x0;&#x0;&#x0;s0&#x0;&#x0;&#x0;e&#x0;Zd&#x0;ZdZdZeed�dd�Zede        d�Z
+dS&#x0;)        �AmenityzKThis is the class for Amenity
+    Attributes:
+        name: input name
+    �        amenities�&#x0;&#x0;&#x0;F)�nullable�Place)�        secondaryN)�__name__�
+__module__�__qualname__�__doc__� __tablename__r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�namer&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�place_amenities�&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�6/home/ubuntu/nothing/AirBnB_clone_v2/models/amenity.pyr&#x0;&#x0;&#x0;        &#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;N)r&#x0;&#x0;&#x0;�models.base_modelr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�sqlalchemy.ormr&#x0;&#x0;&#x0;�
+sqlalchemyr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�models.placer&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�<module>&#x0;&#x0;&#x0;s
+&#x0;&#x0;&#x0;

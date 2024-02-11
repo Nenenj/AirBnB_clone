@@ -1,0 +1,36 @@
+U 
+&#x0;&#x0;&#x0;&#x0;�„cD&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;@&#x0;&#x0;&#x0;s�&#x0;&#x0;&#x0;d&#x0;Z&#x0;ddlmZ&#x0;ddlmZmZ&#x0;ddlmZmZm        Z        m
+Z
+mZmZ&#x0;ddl mZ&#x0;ddlmZ&#x0;ddlZedejed        e        d
+�ed�dd d�ede        d
+�ed�dd d��ZG&#x0;dd�&#x0;dee�ZdS&#x0;)zThis is the place class�&#x0;&#x0;&#x0;&#x0;)�declarative_base)�        BaseModel�Base)�Column�Table�String�Integer�Float�
+ForeignKey)�relationship)�getenvN� place_amenity�place_id�<&#x0;&#x0;&#x0;z        places.idTF)�primary_key�nullableZ
+amenity_idzamenities.idc&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;@&#x0;&#x0;&#x0;s�&#x0;&#x0;&#x0;e&#x0;Zd&#x0;ZdZdZeed�ed�dd�Zeed�ed�dd�Z        eed�dd�Z
+eed        ��Zeedd
+d�Z eedd
+d�Zeedd
+d�Zeedd
+d�Zee�Zee�Zg&#x0;Zed�d kr�edddd�Zededdd�Zn(edd�&#x0;�Zedd�&#x0;�Zejddd��ZdS&#x0;)�Placea�&#x0;&#x0;This is the class for Place
+    Attributes:
+        city_id: city id
+        user_id: user id
+        name: name input
+        description: string of description
+        number_rooms: number of room in int
+        number_bathrooms: number of bathrooms in int
+        max_guest: maximum guest in int
+        price_by_night:: pice for a staying in int
+        latitude: latitude in flaot
+        longitude: longitude in float
+        amenity_ids: list of Amenity ids
+    �placesr&#x0;&#x0;&#x0;z        cities.idF)r&#x0;&#x0;&#x0;zusers.id�&#x0;&#x0;&#x0;i&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;)r&#x0;&#x0;&#x0;�default�HBNB_TYPE_STORAGE�db�Reviewzall, delete, delete-orphanZplace)�cascade�backref�AmenityZplace_amenities)�        secondary�viewonly�back_populatesc&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;C&#x0;&#x0;&#x0;sp&#x0;&#x0;&#x0;t&#x0;j��&#x0;}g&#x0;}g&#x0;}|D&#x0;]4}|�dd�}t�|�}|d&#x0;dkr|�||&#x0;�&#x0;q|D&#x0;]}|j|&#x0;jkrP|�|�&#x0;qP|S&#x0;)z Returns list of reviews.id �.� r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;)        �models�storage�all�replace�shlex�split�appendr&#x0;&#x0;&#x0;�id)�self�varZlista�result�keyZreview�elem�&#x0;r.&#x0;&#x0;&#x0;�4/home/ubuntu/nothing/AirBnB_clone_v2/models/place.py�reviews:&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;&#x0;
+
+z Place.reviewsc&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;C&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;|&#x0;j&#x0;S&#x0;)z Returns list of amenity ids )�amenity_ids)r)&#x0;&#x0;&#x0;r.&#x0;&#x0;&#x0;r.&#x0;&#x0;&#x0;r/&#x0;&#x0;&#x0;�        amenitiesJ&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;&#x0;zPlace.amenitiesNc&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;C&#x0;&#x0;&#x0;s*&#x0;&#x0;&#x0;t&#x0;|�tkr&|j|&#x0;jkr&|&#x0;j�|j�&#x0;dS&#x0;)z& Appends amenity ids to the attribute N)�typer&#x0;&#x0;&#x0;r(&#x0;&#x0;&#x0;r1&#x0;&#x0;&#x0;r'&#x0;&#x0;&#x0;)r)&#x0;&#x0;&#x0;�objr.&#x0;&#x0;&#x0;r.&#x0;&#x0;&#x0;r/&#x0;&#x0;&#x0;r2&#x0;&#x0;&#x0;O&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;&#x0;)N)�__name__�
+__module__�__qualname__�__doc__� __tablename__r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r
+&#x0;&#x0;&#x0;�city_id�user_id�name�descriptionr&#x0;&#x0;&#x0;Znumber_roomsZnumber_bathroomsZ        max_guestZprice_by_nightr        &#x0;&#x0;&#x0;ZlatitudeZ        longituder1&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r0&#x0;&#x0;&#x0;r &#x0;&#x0;&#x0;r2&#x0;&#x0;&#x0;�property�setterr.&#x0;&#x0;&#x0;r.&#x0;&#x0;&#x0;r.&#x0;&#x0;&#x0;r/&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;s6&#x0;&#x0;&#x0;��
+
+r&#x0;&#x0;&#x0;)r8&#x0;&#x0;&#x0;�sqlalchemy.ext.declarativer&#x0;&#x0;&#x0;�models.base_modelr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�
+sqlalchemyr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r        &#x0;&#x0;&#x0;r
+&#x0;&#x0;&#x0;�sqlalchemy.ormr&#x0;&#x0;&#x0;�osr&#x0;&#x0;&#x0;r!&#x0;&#x0;&#x0;�metadatar &#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r.&#x0;&#x0;&#x0;r.&#x0;&#x0;&#x0;r.&#x0;&#x0;&#x0;r/&#x0;&#x0;&#x0;�<module>&#x0;&#x0;&#x0;s&&#x0;&#x0;&#x0; 
+�
+��

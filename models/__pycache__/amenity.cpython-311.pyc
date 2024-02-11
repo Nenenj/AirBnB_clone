@@ -1,0 +1,13 @@
+� 
+&#x0;&#x0;&#x0;&#x0;H��c3&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;�2&#x0;&#x0;&#x0;�&#x0;d&#x0;Z&#x0;ddlmZ&#x0;&#x0;G&#x0;d�&#x0;de�&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;ZdS&#x0;)zGModule base_model
+
+This Module contains a definition for Amenity Class
+�&#x0;&#x0;&#x0;&#x0;)�        BaseModelc&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;�&#x0;&#x0;&#x0;�&#x0;e&#x0;Zd&#x0;ZdZdZdS&#x0;)�AmenityzbA class that represents a amenity
+
+    Attribute:
+        name (str): the name of the amenity
+    �&#x0;N)�__name__�
+__module__�__qualname__�__doc__�name�&#x0;�&#x0;&#x0;&#x0;&#x0;�5C:\Users\USER\Projects\AirBnB_clone\models\amenity.pyr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;
+&#x0;&#x0;&#x0;s&#x0;&#x0;&#x0;�&#x0;�&#x0;�&#x0;�&#x0;�&#x0;��&#x0;�&#x0;�D�D�Dr &#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;N)r
+&#x0;&#x0;&#x0;�models.base_modelr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r &#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�<module>r&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;sW&#x0;&#x0;&#x0;���&#x0;�
+&#x0;(�&#x0;'�&#x0;'�&#x0;'�&#x0;'�&#x0;'��&#x0;�&#x0;�&#x0;�&#x0;�i�&#x0;�&#x0;�&#x0;�&#x0;�&#x0;r &#x0;&#x0;&#x0;

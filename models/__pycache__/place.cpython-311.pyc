@@ -1,0 +1,24 @@
+� 
+&#x0;&#x0;&#x0;&#x0;H��c2&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;�2&#x0;&#x0;&#x0;�&#x0;d&#x0;Z&#x0;ddlmZ&#x0;&#x0;G&#x0;d�&#x0;de�&#x0;&#x0;�&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;ZdS&#x0;)zEModule base_model
+
+This Module contains a definition for Place Class
+�&#x0;&#x0;&#x0;&#x0;)�        BaseModelc&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;�>&#x0;&#x0;&#x0;�&#x0;e&#x0;Zd&#x0;ZdZdZdZdZdZdZdZ        dZ
+dZdZdZ g&#x0;ZdS&#x0;)�Placea�&#x0;&#x0;A class that represents a place
+
+    Attributes:
+        city_id (str): The City id.
+        user_id (str): The User id.
+        name (str): The name of the place.
+        description (str): The description of the place.
+        number_rooms (int): The number of rooms of the place.
+        number_bathrooms (int): The number of bathrooms of the place.
+        max_guest (int): The maximum number of guests of the place.
+        price_by_night (int): The price by night of the place.
+        latitude (float): The latitude of the place.
+        longitude (float): The longitude of the place.
+        amenity_ids (list): A list of Amenity ids.
+    �&#x0;r&#x0;&#x0;&#x0;g&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;N)�__name__�
+__module__�__qualname__�__doc__�city_id�user_id�name�description�number_rooms�number_bathrooms�        max_guest�price_by_night�latitude�        longitude�amenity_ids�&#x0;�&#x0;&#x0;&#x0;&#x0;�3C:\Users\USER\Projects\AirBnB_clone\models\place.pyr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;
+&#x0;&#x0;&#x0;sR&#x0;&#x0;&#x0;�&#x0;�&#x0;�&#x0;�&#x0;�&#x0;��&#x0;� &#x0;�G��G� �D��K��L����I��N��H��I��K�K�Kr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;N)r
+&#x0;&#x0;&#x0;�models.base_modelr&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;r&#x0;&#x0;&#x0;�<module>r&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;sW&#x0;&#x0;&#x0;���&#x0;�
+&#x0;(�&#x0;'�&#x0;'�&#x0;'�&#x0;'�&#x0;'��&#x0;�&#x0;�&#x0;�&#x0;�I�&#x0;�&#x0;�&#x0;�&#x0;�&#x0;r&#x0;&#x0;&#x0;
