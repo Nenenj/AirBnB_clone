@@ -1,13 +1,18 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 """Module base_model
 
 This Module contains a definition for Place Class
 """
 
+=======
+""" module for Place class """
+>>>>>>> e5b90b32db7477fa668f275f10cd07e955883caa
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
+<<<<<<< HEAD
     """A class that represents a place
 
     Attributes:
@@ -24,6 +29,24 @@ class Place(BaseModel):
         amenity_ids (list): A list of Amenity ids.
     """
 
+=======
+    """
+    initiation of Place that inherits from BaseModel class
+
+    Public Class Attributes:
+       (string) city_id: initialized as empty string
+       (string) user_id: initialized as empty string
+       (string) name: initialized as empty string
+       (string) description: initialized as empty string
+       (integer) number_rooms: intialized as zero
+       (integer) number_bathrooms: initialized as zero
+       (integer) max_guest: initialized as 0
+       (integer) price_by_night: initialized as 0
+       (float) latitude: initialized as 0.0
+       (float) longitude: initialized as 0.0
+       (list of strings) amenity_ids: initialized as empty list
+    """
+>>>>>>> e5b90b32db7477fa668f275f10cd07e955883caa
     city_id = ""
     user_id = ""
     name = ""
